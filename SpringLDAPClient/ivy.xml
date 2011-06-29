@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info organisation="ekinoks" module="spring-ldap-client" status="release" revision="1.0"/>
+	<configurations>
+		<conf name="compile" description=":: used for compiling" />
+		<conf name="test" extends="compile" description=":: used for testing" />
+		<conf name="publish" description=":: used for publishing" />  
+		<conf name="default" extends="publish" />  
+	</configurations>
+	
+	<dependencies defaultconfmapping="*->default,sources">
+	
+		<dependency org="commons-logging" name="commons-logging" rev="1.0.4" />
+		<dependency org="commons-lang" name="commons-lang" rev="2.5" conf="compile->default; test->default" />
+		<dependency org="commons-collections" name="commons-collections" rev="3.2"/>
+		<dependency org="log4j" name="log4j" rev="1.2.16"/>
+		
+		<dependency org="org.springframework" name="spring" rev="2.5.6"/>
+		<dependency org="org.springframework.ldap" name="spring-ldap" rev="1.2"/>
+		
+<!--		
+		<dependency org="com.sun.jndi.ldap" name="ldapbp" rev="1.0"/>
+		<dependency org="com.sun" name="ldapbp" rev="1.0" conf="*->default"/>
+		
+		<dependency org="simple-jndi" name="simple-jndi" rev="0.11.4" /> 
+		
+		<dependency org="org.springframework" name="spring-orm" rev="3.0.0.RELEASE" conf="*->default"/>
+		<dependency org="org.springframework" name="spring-web" rev="3.0.0.RELEASE" conf="*->default"/>
+		<dependency org="org.springframework" name="spring-test" rev="3.0.0.RELEASE" conf="*->default"/>
+-->		
+	</dependencies>
+</ivy-module>

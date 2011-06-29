@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/software/spring-framework-2.0.1-with-dependencies/spring-framework-2.0.1/dist/spring.jar" sourcepath="C:/software/spring-framework-2.0.1-with-dependencies/spring-framework-2.0.1/dist/spring-src.zip"/>
+	<classpathentry kind="lib" path="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/dist/spring-ldap-1.1.2.jar" sourcepath="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/src"/>
+	<classpathentry kind="lib" path="C:/software/spring-framework-2.0.1-with-dependencies/spring-framework-2.0.1/lib/log4j/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/lib/ldapbp.jar"/>
+	<classpathentry kind="lib" path="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/software/spring-ldap-bin-with-dependencies-1.1.2/spring-ldap-1.1.2/lib/commons-lang.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
